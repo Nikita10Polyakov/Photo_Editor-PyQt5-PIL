@@ -9,7 +9,7 @@ from PyQt5.QtCore import Qt  # потрібна константа Qt.KeepAspect
 from PyQt5.QtGui import QPixmap  # оптимізована для показу на екрані картинка
 
 from PIL import Image
-from PIL.ImageQt import ImageQt  # Для перенесення графіки з Pillow до QT
+#from PIL.ImageQt import ImageQt  # Для перенесення графіки з Pillow до QT
 from PIL import ImageFilter
 from PIL.ImageFilter import (
     BLUR, CONTOUR, DETAIL, EDGE_ENHANCE, EDGE_ENHANCE_MORE,
